@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
+
 from django.http import HttpResponse
 
 def hello(request):
-    return HttpResponse("Hello World!")
+    return HttpResponse("Hello World")
